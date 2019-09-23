@@ -46,16 +46,16 @@ public:
 	
 	void	begin(int irq, unsigned long baud);
 	void	begin(int irq);
-	int		available();
-	int		peek();
-	int		read();
+	int	available();
+	int	peek();
+	int	read();
 	void	flush();
 	
 	size_t	write(uint8_t n);
 	inline size_t write(unsigned long n) { return write((uint8_t)n); }
-    inline size_t write(long n) { return write((uint8_t)n); }
-    inline size_t write(unsigned int n) { return write((uint8_t)n); }
-    inline size_t write(int n) { return write((uint8_t)n); }
+    	inline size_t write(long n) { return write((uint8_t)n); }
+    	inline size_t write(unsigned int n) { return write((uint8_t)n); }
+    	inline size_t write(int n) { return write((uint8_t)n); }
 	
 	using 	Print::write; // pull in write(str) and write(buf, size) from Print
 };
