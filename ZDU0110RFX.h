@@ -38,7 +38,7 @@ THE POSSIBILITY OF SUCH DAMAGE.
 #define uns32 unsigned long
 
 #define		MAX_BUFF_LENGTH		64
-#define		ZDU_DELAY			5
+#define		ZDU_DELAY		5
 
 #define eeprom_addr 0x53
 #define SYSTEM_ADDR 0x5b 
@@ -68,14 +68,14 @@ THE POSSIBILITY OF SUCH DAMAGE.
 #define CMD_GET_CONFIGURATION               0x29
 
 //Interrupt Types
-#define	IRQ_TX_EMPTY						0x80
-#define IRQ_TX_WTRMK						0x40
-#define	IRQ_TX_FULL							0x20
-#define	IRQ_BREAK							0x10
-#define IRQ_RX_DATA							0x08
-#define IRQ_RX_WTRMK						0x04
-#define	IRQ_RX_FULL							0x02
-#define IRQ_ERROR							0x01
+#define	IRQ_TX_EMPTY			    0x80
+#define IRQ_TX_WTRMK			    0x40
+#define	IRQ_TX_FULL			    0x20
+#define	IRQ_BREAK			    0x10
+#define IRQ_RX_DATA			    0x08
+#define IRQ_RX_WTRMK			    0x04
+#define	IRQ_RX_FULL			    0x02
+#define IRQ_ERROR			    0x01
  
 class ZDU0110RFXClass
 {
