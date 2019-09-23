@@ -1,6 +1,8 @@
 # MOD-1025
 Arduino library and Serial wrapper for the <a href="http://www.embeddedadventures.com/i2c_to_uart_mod-1025.html"> MOD-1025 ZDU0110 UART Interface IC</a>.
 
+https://www.digikey.ca/product-detail/en/zilog/ZDU0110RFX/269-5023-ND/5878593
+
 This repo includes source files for interacting with the ZDU0110RFX and a wrapper for the library, modeling it after the Arduino Serial library. 
 
 ## Using the ZDUSerial library ##
